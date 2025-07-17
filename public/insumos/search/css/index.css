@@ -1,0 +1,56 @@
+.bg-teal {
+    background-color: #20c997 !important;
+}
+
+/*input search style*/
+.search {
+    position: relative;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1; /* Puedes cambiar el color */
+    cursor: pointer;
+}
+
+
+
+/* Estilo para la opción seleccionada */
+.list-group-item.selected {
+    background-color: #007bff; /* Color de fondo de la opción seleccionada */
+    color: white;
+}
+
+.search input {
+    height: 50px;
+    text-indent: 25px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.icon {
+    color: #008080;
+}
+
+/*style list products*/
+.list-group-item {
+    width: 622px;
+    border: 1px solid #f1f1f1;
+}
+
+.flex-row {
+    border: 1px solid #ccd2db;
+    margin-right: -17px;
+    margin-top: -10px;
+    margin-left: -19px;
+    margin-bottom: -10px;
+}
+
+.divimg {
+    border: 1px solid #ccd2db;
+}
